@@ -9,7 +9,7 @@
 							<th width="100">Order Date:</th>
 							<th width="150">Customer Name:</th>
 							<th width="200">Customer Email:</th>
-							<th width="300">Products:</th>
+							<th width="300">Product:</th>
 							<th width="50">Quantity:</th>
 						</tr>
 						<tr>
