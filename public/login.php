@@ -20,7 +20,7 @@ if($_POST){
 	$user->password = $_POST['password'];
 
 	if($user->authenticate()){
-		Login::log_in();
+		Login::log_in($user->id);
 		URL::restore();
 		header('location: index.php');
 	}else{

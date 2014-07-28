@@ -16,7 +16,7 @@ if(Login::is_logged_in()){
 	$order = new Model('tb_order');
 
 	$order->order_date = date('Y-m-d');
-	$order->customer_id = $_SESSION['email']['id'];
+	$order->customer_id = $_SESSION['user']['id'];
 	// $order->order_status = 'Pending';
 
 	// save it so that we know the id of this order
