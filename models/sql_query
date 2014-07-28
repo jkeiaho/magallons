@@ -1,0 +1,4 @@
+SELECT tb_product.id, tb_product.name, tb_orderline.quantity
+FROM tb_product, tb_orderline
+WHERE tb_product.id = tb_orderline.product_id
+AND tb_orderline.order_id = 2
